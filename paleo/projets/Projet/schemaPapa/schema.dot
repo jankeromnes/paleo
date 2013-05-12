@@ -1,0 +1,32 @@
+
+digraph {
+
+	rankdir = LR;
+	node[shape = none];
+	edge[tailclip = false];
+
+	/* Variable papa */
+	papa [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+		<TR><TD WIDTH="40">papa</TD><TD BORDER="1" WIDTH="40">50</TD></TR>
+	</TABLE>>]
+
+	/* Pointeur pointPapa */
+	pointPapa [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+		<TR><TD WIDTH="40">pointPapa</TD><TD BORDER="1" WIDTH="40" PORT="0"> </TD></TR>
+	</TABLE>>]
+
+	/* Objet 23899971 */
+	23899971 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+		<TR><TD> </TD><TD BORDER="1" WIDTH="40" BGCOLOR="#A15690" PORT="0">Point</TD></TR>
+		/* Attribut i */
+		<TR><TD ALIGN="RIGHT" WIDTH="40">i</TD><TD BORDER="1" WIDTH="40">3.0</TD></TR>
+		/* Attribut j */
+		<TR><TD ALIGN="RIGHT" WIDTH="40">j</TD><TD BORDER="1" WIDTH="40">4.0</TD></TR>
+	</TABLE>>]
+
+	pointPapa:0 -> 23899971:0:w
+
+	{ rank = same ;papa;pointPapa }
+
+}
+

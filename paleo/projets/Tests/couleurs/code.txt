@@ -1,0 +1,8 @@
+Point p = new Point(2,3);
+Segment s1 = new Segment();
+Segment s2 = new Segment();
+Triangle t = new Triangle();
+JavacException e = new JavacException("lol");
+DotException e2 = new DotException("lol");
+// manger des pommes, c'est bien
+/* Vive Paléo ! */

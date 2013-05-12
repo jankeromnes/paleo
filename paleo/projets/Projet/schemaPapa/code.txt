@@ -1,0 +1,2 @@
+int papa = 50;
+Point pointPapa = new Point(3,4);

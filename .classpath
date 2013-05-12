@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="jTracert/sources/samples/xerces/src/|jTracert/sources/samples/jaxbApplication/test/|jTracert/sources/samples/issue15/test/|jTracert/sources/samples/template/src/|jTracert/sources/samples/equinox/test/|jTracert/sources/samples/issue15/src/|jTracert/sources/samples/simpleApp1/src/|jTracert/sources/samples/simpleApp2/test/|jTracert/sources/samples/constructor/src/|jTracert/sources/samples/callTraceSize/src/|jTracert/sources/samples/constructor/test/|jTracert/sources/samples/jTracertTestCase/test/|jTracert/sources/samples/heap/test/|jTracert/sources/samples/issue13/src/|jTracert/sources/samples/jaxbApplication/src/|jTracert/sources/samples/issue8/test/|jTracert/sources/samples/heap/src/|jTracert/sources/samples/bootStrapClassConstructor/test/|jTracert/sources/src/|jTracert/sources/samples/log4j/src/|jTracert/sources/samples/equinox/src/|jTracert/sources/samples/issue8/src/|jTracert/sources/samples/template/test/|jTracert/sources/samples/xerces/test/|jTracert/sources/gui/src/|jTracert/sources/samples/xalan/test/|jTracert/sources/samples/simpleApp1/test/|jTracert/sources/samples/simpleApp2/src/|jTracert/sources/samples/log4j/test/|jTracert/sources/samples/xalan/src/|jTracert/sources/test/|jTracert/sources/samples/issue9/test/|jTracert/sources/samples/issue9/src/|jTracert/sources/samples/callTraceSize/test/|jTracert/sources/samples/issue13/test/|jTracert/sources/samples/bootStrapClassConstructor/src/" kind="src" path=""/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="JFlex.jar"/>
+	<classpathentry kind="lib" path="java_cup.jar"/>
+	<classpathentry kind="output" path=""/>
+</classpath>

@@ -1,0 +1,27 @@
+
+digraph {
+
+	rankdir = LR;
+	node[shape = none];
+	edge[tailclip = false];
+
+	/* Pointeur p1 */
+	p1 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+		<TR><TD WIDTH="40">p1</TD><TD BORDER="1" WIDTH="40" PORT="0"> </TD></TR>
+	</TABLE>>]
+
+	/* Objet 23899971 */
+	23899971 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+		<TR><TD> </TD><TD BORDER="1" WIDTH="40" BGCOLOR="#A15690" PORT="0">Point</TD></TR>
+		/* Attribut i */
+		<TR><TD ALIGN="RIGHT" WIDTH="40">i</TD><TD BORDER="1" WIDTH="40">10.0</TD></TR>
+		/* Attribut j */
+		<TR><TD ALIGN="RIGHT" WIDTH="40">j</TD><TD BORDER="1" WIDTH="40">11.0</TD></TR>
+	</TABLE>>]
+
+	p1:0 -> 23899971:0:w
+
+	{ rank = same ;p1 }
+
+}
+

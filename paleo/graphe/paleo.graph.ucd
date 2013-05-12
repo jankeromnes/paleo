@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" size="2354,2083" id="paleo.graph" metadata="uml2-1.0" initialized="true" zoom="0.8986213096145771" scrolledY="15" tag="1000" key="32303037303533312D313030302070616C656F2F4A616E">
+  <children xsi:type="editmodel:ClassEditModel" name="Graphe" location="45,29" size="102,175" id="paleo.graph/Graphe" runTimeClassModel="tableaux,cases,add(Lpaleo.graph.Tableau;),construire(),generer(),add(Lpaleo.graph.CasePointeur;),contient(Ljava.lang.String;),Graphe(Ljava.lang.String;Ljava.util.HashMap;),add(Lpaleo.graph.CaseValeur;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="79,126">
+      <children xsi:type="editmodel:MethodEditModel" name="Graphe" id="paleo.graph/Graphe#Graphe(Ljava.lang.String;Ljava.util.HashMap;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="add" id="paleo.graph/Graphe#add(Lpaleo.graph.CasePointeur;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="add" id="paleo.graph/Graphe#add(Lpaleo.graph.CaseValeur;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="add" id="paleo.graph/Graphe#add(Lpaleo.graph.Tableau;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="construire" id="paleo.graph/Graphe#construire()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="contient" id="paleo.graph/Graphe#contient(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="generer" id="paleo.graph/Graphe#generer()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="paleo.graph/Graphe->Standard::Call" source="//@children.0" target="//@children.1" targetEnd="//@children.0/@sourceConnections.0/@children.2" label="//@children.0/@sourceConnections.0/@children.0" sourceEnd="//@children.0/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Instantiate, Call, Import»" size="119,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="102,97" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,83"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="paleo.graph/Graphe->Standard::Call" source="//@children.0" target="//@children.3" targetEnd="//@children.0/@sourceConnections.1/@children.2" label="//@children.0/@sourceConnections.1/@children.0" sourceEnd="//@children.0/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Instantiate, Call, Import»" size="119,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="102,147" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,7"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="paleo.graph/Graphe-Standard::Call->paleo.graph/GenerateurDot" source="//@children.0" target="//@children.12" targetEnd="//@children.0/@sourceConnections.2/@children.2" label="//@children.0/@sourceConnections.2/@children.0" sourceEnd="//@children.0/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call»" size="29,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="50,175" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="50,0"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.0" name="LesCases" location="285,27" size="109,157" id="paleo.graph/LesCases" runTimeClassModel="construire(),add(Lpaleo.graph.Case;),generer(),genererArc(),LesCases(),varList()">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="86,108">
+      <children xsi:type="editmodel:MethodEditModel" name="LesCases" id="paleo.graph/LesCases#LesCases()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="add" id="paleo.graph/LesCases#add(Lpaleo.graph.Case;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="construire" id="paleo.graph/LesCases#construire()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="generer" id="paleo.graph/LesCases#generer()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="genererArc" id="paleo.graph/LesCases#genererArc()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="varList" id="paleo.graph/LesCases#varList()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="paleo.graph/LesCases->Standard::Call" source="//@children.1" target="//@children.7" targetEnd="//@children.1/@sourceConnections.0/@children.2" label="//@children.1/@sourceConnections.0/@children.0" sourceEnd="//@children.1/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import»" size="64,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="109,44" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,42"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.8/@sourceConnections.0" name="LesLignes" location="794,330" size="109,121" id="paleo.graph/LesLignes" runTimeClassModel="add(Lpaleo.graph.Ligne;),LesLignes(Ljava.lang.String;),generer(),genererArc()">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="86,72">
+      <children xsi:type="editmodel:MethodEditModel" name="LesLignes" id="paleo.graph/LesLignes#LesLignes(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="add" id="paleo.graph/LesLignes#add(Lpaleo.graph.Ligne;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="generer" id="paleo.graph/LesLignes#generer()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="genererArc" id="paleo.graph/LesLignes#genererArc()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="paleo.graph/LesLignes->Standard::Call" source="//@children.2" target="//@children.10" targetEnd="//@children.2/@sourceConnections.0/@children.2" label="//@children.2/@sourceConnections.0/@children.0" sourceEnd="//@children.2/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import»" size="64,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="109,43" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,42"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.1" name="LesTableaux" location="285,331" size="123,157" id="paleo.graph/LesTableaux" runTimeClassModel="LesTableaux(),add(Lpaleo.graph.Tableau;),construire(),generer(),contient(Ljava.lang.String;),genererArc()">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="91,108">
+      <children xsi:type="editmodel:MethodEditModel" name="LesTableaux" id="paleo.graph/LesTableaux#LesTableaux()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="add" id="paleo.graph/LesTableaux#add(Lpaleo.graph.Tableau;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="construire" id="paleo.graph/LesTableaux#construire()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="contient" id="paleo.graph/LesTableaux#contient(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="generer" id="paleo.graph/LesTableaux#generer()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="genererArc" id="paleo.graph/LesTableaux#genererArc()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="paleo.graph/LesTableaux->Standard::Call" source="//@children.3" target="//@children.8" targetEnd="//@children.3/@sourceConnections.0/@children.2" label="//@children.3/@sourceConnections.0/@children.0" sourceEnd="//@children.3/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import»" size="64,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="123,60" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,61"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="LigneValeur" location="901,480" size="119,85" id="paleo.graph/LigneValeur" runTimeClassModel="LigneValeur(Ljava.lang.String;Ljava.lang.String;Lpaleo.graph.Tableau;),generer()">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="87,36">
+      <children xsi:type="editmodel:MethodEditModel" name="LigneValeur" id="paleo.graph/LigneValeur#LigneValeur(Ljava.lang.String;Ljava.lang.String;Lpaleo.graph.Tableau;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="generer" id="paleo.graph/LigneValeur#generer()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" id="paleo.graph/Ligne&lt;-paleo.graph/LigneValeur" source="//@children.4" target="//@children.10" targetEnd="//@children.4/@sourceConnections.0/@children.1" sourceEnd="//@children.4/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="108,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="50,84" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="LignePointeur" location="1035,480" size="132,121" id="paleo.graph/LignePointeur" runTimeClassModel="LignePointeur(Ljava.lang.String;Ljava.lang.Object;Lpaleo.graph.Tableau;),construire(),generer(),genererArc()">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="95,72">
+      <children xsi:type="editmodel:MethodEditModel" name="LignePointeur" id="paleo.graph/LignePointeur#LignePointeur(Ljava.lang.String;Ljava.lang.Object;Lpaleo.graph.Tableau;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="construire" id="paleo.graph/LignePointeur#construire()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="generer" id="paleo.graph/LignePointeur#generer()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="genererArc" id="paleo.graph/LignePointeur#genererArc()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" id="paleo.graph/Ligne&lt;-paleo.graph/LignePointeur" source="//@children.5" target="//@children.10" targetEnd="//@children.5/@sourceConnections.0/@children.1" sourceEnd="//@children.5/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="69,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="51,84" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.8/@sourceConnections.1 //@children.10/@sourceConnections.0 //@children.7/@sourceConnections.0" name="Noeuds" location="996,27" size="118,229" id="paleo.graph/Noeuds" runTimeClassModel="valeur,setGraphe(Lpaleo.graph.Graphe;),className(Ljava.lang.String;),Noeuds(Ljava.lang.String;Ljava.lang.String;),getValeur(),construire(),generer(),nom,getNom(),graphe">
+    <children xsi:type="editmodel:CompartmentEditModel" size="95,54">
+      <children xsi:type="editmodel:AttributeEditModel" name="graphe" id="paleo.graph/Noeuds#graphe"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="nom" id="paleo.graph/Noeuds#nom"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="valeur" id="paleo.graph/Noeuds#valeur"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="83,126">
+      <children xsi:type="editmodel:MethodEditModel" name="Noeuds" id="paleo.graph/Noeuds#Noeuds(Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="className" id="paleo.graph/Noeuds#className(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="construire" id="paleo.graph/Noeuds#construire()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="generer" id="paleo.graph/Noeuds#generer()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getNom" id="paleo.graph/Noeuds#getNom()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getValeur" id="paleo.graph/Noeuds#getValeur()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setGraphe" id="paleo.graph/Noeuds#setGraphe(Lpaleo.graph.Graphe;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.11/@sourceConnections.0 //@children.1/@sourceConnections.0" name="Case" location="509,29" size="109,85" id="paleo.graph/Case" runTimeClassModel="generer(),genererArc()">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="86,36">
+      <children xsi:type="editmodel:MethodEditModel" name="generer" id="paleo.graph/Case#generer()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="genererArc" id="paleo.graph/Case#genererArc()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" id="paleo.graph/Noeuds&lt;-paleo.graph/Case" source="//@children.7" target="//@children.6" targetEnd="//@children.7/@sourceConnections.0/@children.1" sourceEnd="//@children.7/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="109,13" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,15"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.3/@sourceConnections.0" name="Tableau" location="582,330" size="117,121" id="paleo.graph/Tableau" runTimeClassModel="add(Lpaleo.graph.Ligne;),Tableau(Ljava.lang.String;Ljava.lang.String;),generer(),genererArc()">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="86,72">
+      <children xsi:type="editmodel:MethodEditModel" name="Tableau" id="paleo.graph/Tableau#Tableau(Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="add" id="paleo.graph/Tableau#add(Lpaleo.graph.Ligne;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="generer" id="paleo.graph/Tableau#generer()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="genererArc" id="paleo.graph/Tableau#genererArc()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="paleo.graph/Tableau->Standard::Call" source="//@children.8" target="//@children.2" targetEnd="//@children.8/@sourceConnections.0/@children.2" label="//@children.8/@sourceConnections.0/@children.0" sourceEnd="//@children.8/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Instantiate, Call, Import»" size="119,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="117,60" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,60"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" id="paleo.graph/Noeuds&lt;-paleo.graph/Tableau" source="//@children.8" target="//@children.6" targetEnd="//@children.8/@sourceConnections.1/@children.1" sourceEnd="//@children.8/@sourceConnections.1/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="117,12" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,112"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="CasePointeur" location="572,165" size="127,121" id="paleo.graph/CasePointeur" runTimeClassModel="generer(),construire(),genererArc(),CasePointeur(Ljava.lang.String;Ljava.lang.Object;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="94,72">
+      <children xsi:type="editmodel:MethodEditModel" name="CasePointeur" id="paleo.graph/CasePointeur#CasePointeur(Ljava.lang.String;Ljava.lang.Object;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="construire" id="paleo.graph/CasePointeur#construire()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="generer" id="paleo.graph/CasePointeur#generer()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="genererArc" id="paleo.graph/CasePointeur#genererArc()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="paleo.graph/Case&lt;-paleo.graph/CasePointeur" source="//@children.9" target="//@children.11/@sourceConnections.0" targetEnd="//@children.9/@sourceConnections.0/@children.1" sourceEnd="//@children.9/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="63,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.2/@sourceConnections.0 //@children.5/@sourceConnections.0 //@children.4/@sourceConnections.0" name="Ligne" location="1000,331" size="109,85" id="paleo.graph/Ligne" runTimeClassModel="generer(),genererArc()">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="86,36">
+      <children xsi:type="editmodel:MethodEditModel" name="generer" id="paleo.graph/Ligne#generer()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="genererArc" id="paleo.graph/Ligne#genererArc()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" id="paleo.graph/Noeuds&lt;-paleo.graph/Ligne" source="//@children.10" target="//@children.6" targetEnd="//@children.10/@sourceConnections.0/@children.1" sourceEnd="//@children.10/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="55,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="57,229"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="CaseValeur" location="434,165" size="114,85" id="paleo.graph/CaseValeur" runTimeClassModel="CaseValeur(Ljava.lang.String;Ljava.lang.String;),generer()">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="86,36">
+      <children xsi:type="editmodel:MethodEditModel" name="CaseValeur" id="paleo.graph/CaseValeur#CaseValeur(Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="generer" id="paleo.graph/CaseValeur#generer()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.9/@sourceConnections.0" id="paleo.graph/Case&lt;-paleo.graph/CaseValeur" source="//@children.11" target="//@children.7" targetEnd="//@children.11/@sourceConnections.0/@children.1" sourceEnd="//@children.11/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="60,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="48,85" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.2" name="GenerateurDot" location="45,354" size="206,247" id="paleo.graph/GenerateurDot" runTimeClassModel="printArc(Ljava.lang.String;Ljava.lang.String;),printLignePointeur(Ljava.lang.String;),printTableau(Ljava.lang.String;Ljava.lang.String;Lpaleo.graph.LesLignes;),getCouleurs(),printGraphe(Lpaleo.graph.LesCases;Lpaleo.graph.LesTableaux;Ljava.io.PrintWriter;),getInstance(),printLigneValeur(Ljava.lang.String;Ljava.lang.String;),printCasePointeur(Ljava.lang.String;),setCouleurs(Ljava.util.HashMap;),couleurs,printCaseValeur(Ljava.lang.String;Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="183,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="couleurs" id="paleo.graph/GenerateurDot#couleurs"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="116,180">
+      <children xsi:type="editmodel:MethodEditModel" name="getCouleurs" id="paleo.graph/GenerateurDot#getCouleurs()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getInstance" id="paleo.graph/GenerateurDot#getInstance()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="printArc" id="paleo.graph/GenerateurDot#printArc(Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="printCasePointeur" id="paleo.graph/GenerateurDot#printCasePointeur(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="printCaseValeur" id="paleo.graph/GenerateurDot#printCaseValeur(Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="printGraphe" id="paleo.graph/GenerateurDot#printGraphe(Lpaleo.graph.LesCases;Lpaleo.graph.LesTableaux;Ljava.io.PrintWriter;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="printLignePointeur" id="paleo.graph/GenerateurDot#printLignePointeur(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="printLigneValeur" id="paleo.graph/GenerateurDot#printLigneValeur(Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="printTableau" id="paleo.graph/GenerateurDot#printTableau(Ljava.lang.String;Ljava.lang.String;Lpaleo.graph.LesLignes;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setCouleurs" id="paleo.graph/GenerateurDot#setCouleurs(Ljava.util.HashMap;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" properties="wireOptions=5;Product=eUML2" autoName="false"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>

@@ -1,0 +1,12 @@
+
+digraph {
+
+	rankdir = LR;
+	node[shape = none];
+	edge[tailclip = false];
+
+
+	{ rank = same  }
+
+}
+

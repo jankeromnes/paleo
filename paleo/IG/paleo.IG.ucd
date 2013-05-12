@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" size="914,1247" id="paleo.IG" metadata="uml2-1.0" initialized="true" scrolledX="207" tag="1000" key="32303037303533312D313030302070616C656F2F4A616E">
+  <children xsi:type="editmodel:ClassEditModel" name="IGPaleo" location="261,595" size="167,103" id="paleo.IG/IGPaleo" runTimeClassModel="redimensionnerModules(),main([Ljava.lang.String;),IGPaleo()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="144,54">
+      <children xsi:type="editmodel:MethodEditModel" name="IGPaleo" id="paleo.IG/IGPaleo#IGPaleo()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="main" id="paleo.IG/IGPaleo#main([Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="redimensionnerModules" id="paleo.IG/IGPaleo#redimensionnerModules()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="PositionsRelatives" location="50,595" size="161,139" id="paleo.IG/PositionsRelatives" runTimeClassModel="pourcentLargeur,pourcentHauteur,pourcentX,pourcentY,PositionsRelatives(DDDD)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="138,72">
+      <children xsi:type="editmodel:AttributeEditModel" name="pourcentHauteur" id="paleo.IG/PositionsRelatives#pourcentHauteur"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="pourcentLargeur" id="paleo.IG/PositionsRelatives#pourcentLargeur"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="pourcentX" id="paleo.IG/PositionsRelatives#pourcentX"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="pourcentY" id="paleo.IG/PositionsRelatives#pourcentY"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="117,18">
+      <children xsi:type="editmodel:MethodEditModel" name="PositionsRelatives" id="paleo.IG/PositionsRelatives#PositionsRelatives(DDDD)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="VueChoixProjet" location="546,352" size="151,85" id="paleo.IG/VueSauvegarde" runTimeClassModel="genererComposants(),VueChoixProjet(Lpaleo.modele.ModelePaleo;Lpaleo.IG.IGPaleo;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="128,36">
+      <children xsi:type="editmodel:MethodEditModel" name="VueChoixProjet" id="paleo.IG/VueSauvegarde#VueSauvegarde(Lpaleo.modele.ModelePaleo;Lpaleo.IG.IGPaleo;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="genererComposants" id="paleo.IG/VueSauvegarde#genererComposants()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.3/@sourceConnections.0" autoLocated="true" id="paleo.IG/VueDialogueAbstraite&lt;-paleo.IG/VueSauvegarde" source="//@children.2" target="//@children.7" targetEnd="//@children.2/@sourceConnections.0/@children.1" sourceEnd="//@children.2/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="75,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="90,121" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="VuePackages" location="727,352" size="151,85" id="paleo.IG/VuePackages" runTimeClassModel="VuePackages(Lpaleo.modele.ModelePaleo;Lpaleo.IG.IGPaleo;),genererComposants()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="128,36">
+      <children xsi:type="editmodel:MethodEditModel" name="VuePackages" id="paleo.IG/VuePackages#VuePackages(Lpaleo.modele.ModelePaleo;Lpaleo.IG.IGPaleo;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="genererComposants" id="paleo.IG/VuePackages#genererComposants()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="paleo.IG/VueDialogueAbstraite&lt;-paleo.IG/VuePackages" source="//@children.3" target="//@children.2/@sourceConnections.0" targetEnd="//@children.3/@sourceConnections.0/@children.1" sourceEnd="//@children.3/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="75,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="VueEditeur" location="50,352" size="127,103" id="paleo.IG/VueEditeur" runTimeClassModel="rafraichir(),redimensionner(Ljava.awt.Dimension;),VueEditeur(Lpaleo.modele.ModelePaleo;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="104,54">
+      <children xsi:type="editmodel:MethodEditModel" name="VueEditeur" id="paleo.IG/VueEditeur#VueEditeur(Lpaleo.modele.ModelePaleo;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="rafraichir" id="paleo.IG/VueEditeur#rafraichir()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="redimensionner" id="paleo.IG/VueEditeur#redimensionner(Ljava.awt.Dimension;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.12/@sourceConnections.0 //@children.8/@sourceConnections.0" autoLocated="true" id="paleo.IG/ModuleGraphiqueVueAbstrait&lt;-paleo.IG/VueEditeur" source="//@children.4" target="//@children.6" targetEnd="//@children.4/@sourceConnections.0/@children.1" sourceEnd="//@children.4/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="63,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="114,103" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="VueImage" location="787,181" size="107,85" id="paleo.IG/VueImage" runTimeClassModel="VueImage(Lpaleo.modele.ModelePaleo;),rafraichir()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="78,36">
+      <children xsi:type="editmodel:MethodEditModel" name="VueImage" id="paleo.IG/VueImage#VueImage(Lpaleo.modele.ModelePaleo;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="rafraichir" id="paleo.IG/VueImage#rafraichir()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="paleo.IG/Vue&lt;-paleo.IG/VueImage" source="//@children.5" target="//@children.6/@sourceConnections.0" targetEnd="//@children.5/@sourceConnections.0/@children.1" sourceEnd="//@children.5/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="53,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.4/@sourceConnections.0" name="ModuleGraphiqueVueAbstrait" location="50,181" size="229,103" id="paleo.IG/ModuleGraphiqueVueAbstrait" runTimeClassModel="redimensionner(Ljava.awt.Dimension;),ModuleGraphiqueVueAbstrait(Ljava.lang.String;Lpaleo.IG.PositionsRelatives;Lpaleo.modele.ModelePaleo;),redimensionner()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="172,54">
+      <children xsi:type="editmodel:MethodEditModel" name="ModuleGraphiqueVueAbstrait" id="paleo.IG/ModuleGraphiqueVueAbstrait#ModuleGraphiqueVueAbstrait(Ljava.lang.String;Lpaleo.IG.PositionsRelatives;Lpaleo.modele.ModelePaleo;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="redimensionner" id="paleo.IG/ModuleGraphiqueVueAbstrait#redimensionner(Ljava.awt.Dimension;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="redimensionner" id="paleo.IG/ModuleGraphiqueVueAbstrait#redimensionner()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.9/@sourceConnections.0 //@children.7/@sourceConnections.0 //@children.11/@sourceConnections.0 //@children.5/@sourceConnections.0" autoLocated="true" id="paleo.IG/Vue&lt;-paleo.IG/ModuleGraphiqueVueAbstrait" source="//@children.6" target="//@children.10" targetEnd="//@children.6/@sourceConnections.0/@children.1" sourceEnd="//@children.6/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="114,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="48,81" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.2/@sourceConnections.0" name="VueDialogueAbstraite" location="577,181" size="180,121" id="paleo.IG/VueDialogueAbstraite" runTimeClassModel="rafraichir(),ouvrir(),genererComposants(),VueDialogueAbstraite(Ljava.lang.String;Lpaleo.modele.ModelePaleo;Lpaleo.IG.IGPaleo;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="135,72">
+      <children xsi:type="editmodel:MethodEditModel" name="VueDialogueAbstraite" id="paleo.IG/VueDialogueAbstraite#VueDialogueAbstraite(Ljava.lang.String;Lpaleo.modele.ModelePaleo;Lpaleo.IG.IGPaleo;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="genererComposants" id="paleo.IG/VueDialogueAbstraite#genererComposants()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="ouvrir" id="paleo.IG/VueDialogueAbstraite#ouvrir()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="rafraichir" id="paleo.IG/VueDialogueAbstraite#rafraichir()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="paleo.IG/Vue&lt;-paleo.IG/VueDialogueAbstraite" source="//@children.7" target="//@children.6/@sourceConnections.0" targetEnd="//@children.7/@sourceConnections.0/@children.1" sourceEnd="//@children.7/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="90,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="VueArborescence" location="355,352" size="161,193" id="paleo.IG/VueArborescence" runTimeClassModel="rafraichir(),mouseEntered(Ljava.awt.event.MouseEvent;),mouseClicked(Ljava.awt.event.MouseEvent;),mousePressed(Ljava.awt.event.MouseEvent;),mouseExited(Ljava.awt.event.MouseEvent;),genererArborescence(),VueArborescence(Lpaleo.modele.ModelePaleo;),mouseReleased(Ljava.awt.event.MouseEvent;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="138,144">
+      <children xsi:type="editmodel:MethodEditModel" name="VueArborescence" id="paleo.IG/VueArborescence#VueArborescence(Lpaleo.modele.ModelePaleo;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="genererArborescence" id="paleo.IG/VueArborescence#genererArborescence()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="mouseClicked" id="paleo.IG/VueArborescence#mouseClicked(Ljava.awt.event.MouseEvent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="mouseEntered" id="paleo.IG/VueArborescence#mouseEntered(Ljava.awt.event.MouseEvent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="mouseExited" id="paleo.IG/VueArborescence#mouseExited(Ljava.awt.event.MouseEvent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="mousePressed" id="paleo.IG/VueArborescence#mousePressed(Ljava.awt.event.MouseEvent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="mouseReleased" id="paleo.IG/VueArborescence#mouseReleased(Ljava.awt.event.MouseEvent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="rafraichir" id="paleo.IG/VueArborescence#rafraichir()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="paleo.IG/ModuleGraphiqueVueAbstrait&lt;-paleo.IG/VueArborescence" source="//@children.8" target="//@children.4/@sourceConnections.0" targetEnd="//@children.8/@sourceConnections.0/@children.1" sourceEnd="//@children.8/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="80,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="VueCode" location="309,181" size="100,85" id="paleo.IG/VueCode" runTimeClassModel="rafraichir(),VueCode(Lpaleo.modele.ModelePaleo;Ljavax.swing.event.DocumentListener;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="75,36">
+      <children xsi:type="editmodel:MethodEditModel" name="VueCode" id="paleo.IG/VueCode#VueCode(Lpaleo.modele.ModelePaleo;Ljavax.swing.event.DocumentListener;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="rafraichir" id="paleo.IG/VueCode#rafraichir()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="paleo.IG/Vue&lt;-paleo.IG/VueCode" source="//@children.9" target="//@children.6/@sourceConnections.0" targetEnd="//@children.9/@sourceConnections.0/@children.1" sourceEnd="//@children.9/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="50,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.6/@sourceConnections.0" name="Vue" location="456,50" size="97,81" id="paleo.IG/Vue" runTimeClassModel="rafraichir()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="74,18">
+      <children xsi:type="editmodel:MethodEditModel" name="rafraichir" id="paleo.IG/Vue#rafraichir()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="VueMenus" location="439,181" size="108,85" id="paleo.IG/VueMenus" runTimeClassModel="rafraichir(),VueMenus(Lpaleo.modele.ModelePaleo;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="82,36">
+      <children xsi:type="editmodel:MethodEditModel" name="VueMenus" id="paleo.IG/VueMenus#VueMenus(Lpaleo.modele.ModelePaleo;Lpaleo.IG.IGPaleo;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="rafraichir" id="paleo.IG/VueMenus#rafraichir()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="paleo.IG/Vue&lt;-paleo.IG/VueMenus" source="//@children.11" target="//@children.6/@sourceConnections.0" targetEnd="//@children.11/@sourceConnections.0/@children.1" sourceEnd="//@children.11/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="54,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="VueConsole" location="207,352" size="118,85" id="paleo.IG/VueConsole" runTimeClassModel="rafraichir(),VueConsole(Lpaleo.modele.ModelePaleo;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="89,36">
+      <children xsi:type="editmodel:MethodEditModel" name="VueConsole" id="paleo.IG/VueConsole#VueConsole(Lpaleo.modele.ModelePaleo;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="rafraichir" id="paleo.IG/VueConsole#rafraichir()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="paleo.IG/ModuleGraphiqueVueAbstrait&lt;-paleo.IG/VueConsole" source="//@children.12" target="//@children.4/@sourceConnections.0" targetEnd="//@children.12/@sourceConnections.0/@children.1" sourceEnd="//@children.12/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="59,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" properties="wireOptions=1;Product=eUML2" autoName="false"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>

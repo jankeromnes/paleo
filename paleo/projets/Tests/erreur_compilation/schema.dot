@@ -1,0 +1,52 @@
+
+digraph {
+
+	rankdir = LR;
+	node[shape = none];
+	edge[tailclip = false];
+
+	/* Variable v */
+	v [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+		<TR><TD WIDTH="40">v</TD><TD BORDER="1" WIDTH="40">-11</TD></TR>
+	</TABLE>>]
+
+	/* Variable b */
+	b [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+		<TR><TD WIDTH="40">b</TD><TD BORDER="1" WIDTH="40">9</TD></TR>
+	</TABLE>>]
+
+	/* Variable a */
+	a [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+		<TR><TD WIDTH="40">a</TD><TD BORDER="1" WIDTH="40">9</TD></TR>
+	</TABLE>>]
+
+	/* Variable longueur */
+	longueur [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+		<TR><TD WIDTH="40">longueur</TD><TD BORDER="1" WIDTH="40">0</TD></TR>
+	</TABLE>>]
+
+	/* Variable bidulle */
+	bidulle [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+		<TR><TD WIDTH="40">bidulle</TD><TD BORDER="1" WIDTH="40">0</TD></TR>
+	</TABLE>>]
+
+	/* Variable j */
+	j [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+		<TR><TD WIDTH="40">j</TD><TD BORDER="1" WIDTH="40">28.0</TD></TR>
+	</TABLE>>]
+
+	/* Variable i2 */
+	i2 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+		<TR><TD WIDTH="40">i2</TD><TD BORDER="1" WIDTH="40">9.0</TD></TR>
+	</TABLE>>]
+
+	/* Variable i */
+	i [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+		<TR><TD WIDTH="40">i</TD><TD BORDER="1" WIDTH="40">3</TD></TR>
+	</TABLE>>]
+
+
+	{ rank = same ;v;b;a;longueur;bidulle;j;i2;i }
+
+}
+

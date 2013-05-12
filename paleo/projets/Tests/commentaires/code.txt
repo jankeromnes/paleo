@@ -1,0 +1,14 @@
+
+/*
+
+ceci est un commentaire veritablement utile,
+vehiculant un message des plus instructifs
+et bouleversants !!!
+
+
+*/
+
+// le commentaire au dessus ne sert a rien
+
+int /* hihi, je veux faire des erreurs */ i = 18;
+double k /* coucou */ = /* coucou */ 9.0;

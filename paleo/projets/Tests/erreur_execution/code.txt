@@ -1,0 +1,2 @@
+Point p = null;
+p.deplacer(2,3);

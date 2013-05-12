@@ -1,0 +1,16 @@
+/*
+A FAIRE :
+
+- fonction recherche (selectionner mot);
+- fonctions erreurs (placer croix, selectionner la ligne);
+- corriger mode batch
+- finir javadoc
+- rapport de projet (+ diagrammes classes et sequences)
+
+SQL :
+
+- raise application error
+- rapport de projet
+
+*/
+int i = 3;

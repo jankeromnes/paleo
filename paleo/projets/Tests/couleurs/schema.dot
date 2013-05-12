@@ -1,0 +1,86 @@
+
+digraph {
+
+	rankdir = LR;
+	node[shape = none];
+	edge[tailclip = false];
+
+	/* Pointeur s2 */
+	s2 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+		<TR><TD WIDTH="40">s2</TD><TD BORDER="1" WIDTH="40" PORT="0"> </TD></TR>
+	</TABLE>>]
+
+	/* Pointeur e2 */
+	e2 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+		<TR><TD WIDTH="40">e2</TD><TD BORDER="1" WIDTH="40" PORT="0"> </TD></TR>
+	</TABLE>>]
+
+	/* Pointeur e */
+	e [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+		<TR><TD WIDTH="40">e</TD><TD BORDER="1" WIDTH="40" PORT="0"> </TD></TR>
+	</TABLE>>]
+
+	/* Pointeur t */
+	t [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+		<TR><TD WIDTH="40">t</TD><TD BORDER="1" WIDTH="40" PORT="0"> </TD></TR>
+	</TABLE>>]
+
+	/* Pointeur s1 */
+	s1 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+		<TR><TD WIDTH="40">s1</TD><TD BORDER="1" WIDTH="40" PORT="0"> </TD></TR>
+	</TABLE>>]
+
+	/* Pointeur p */
+	p [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+		<TR><TD WIDTH="40">p</TD><TD BORDER="1" WIDTH="40" PORT="0"> </TD></TR>
+	</TABLE>>]
+
+	/* Objet 14718739 */
+	14718739 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+		<TR><TD> </TD><TD BORDER="1" WIDTH="40" BGCOLOR="#42BA4D" PORT="0">Segment</TD></TR>
+	</TABLE>>]
+
+	/* Objet 1102920 */
+	1102920 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+		<TR><TD> </TD><TD BORDER="1" WIDTH="40" BGCOLOR="#FFFF00" PORT="0">Point</TD></TR>
+		/* Attribut i */
+		<TR><TD ALIGN="RIGHT" WIDTH="40">i</TD><TD BORDER="1" WIDTH="40">2.0</TD></TR>
+		/* Attribut j */
+		<TR><TD ALIGN="RIGHT" WIDTH="40">j</TD><TD BORDER="1" WIDTH="40">3.0</TD></TR>
+	</TABLE>>]
+
+	/* Objet 22474382 */
+	22474382 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+		<TR><TD> </TD><TD BORDER="1" WIDTH="40" BGCOLOR="#C76EF0" PORT="0">JavacException</TD></TR>
+		/* Attribut serialVersionUID */
+		<TR><TD ALIGN="RIGHT" WIDTH="40">serialVersionUID</TD><TD BORDER="1" WIDTH="40">1</TD></TR>
+	</TABLE>>]
+
+	/* Objet 4699264 */
+	4699264 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+		<TR><TD> </TD><TD BORDER="1" WIDTH="40" BGCOLOR="#393BE0" PORT="0">Triangle</TD></TR>
+	</TABLE>>]
+
+	/* Objet 26954214 */
+	26954214 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+		<TR><TD> </TD><TD BORDER="1" WIDTH="40" BGCOLOR="#42BA4D" PORT="0">Segment</TD></TR>
+	</TABLE>>]
+
+	/* Objet 14577460 */
+	14577460 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+		<TR><TD> </TD><TD BORDER="1" WIDTH="40" BGCOLOR="#76CAD8" PORT="0">DotException</TD></TR>
+		/* Attribut serialVersionUID */
+		<TR><TD ALIGN="RIGHT" WIDTH="40">serialVersionUID</TD><TD BORDER="1" WIDTH="40">1</TD></TR>
+	</TABLE>>]
+
+	s2:0 -> 14718739:0:w
+	e2:0 -> 14577460:0:w
+	e:0 -> 22474382:0:w
+	t:0 -> 4699264:0:w
+	s1:0 -> 26954214:0:w
+	p:0 -> 1102920:0:w
+
+	{ rank = same ;s2;e2;e;t;s1;p }
+
+}
+
